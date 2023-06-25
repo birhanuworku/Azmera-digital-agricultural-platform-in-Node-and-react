@@ -1,0 +1,38 @@
+.chapa {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 50vh;
+  background-color: #f0ffff;
+  position: fixed; /* Add this line to position the element */
+  top: 50%; /* Set the top position to 50% */
+  left: 50%; /* Set the left position to 50% */
+  transform: translate(-50%, -50%); /* Add this line to center the element */
+  border-radius: 10px;
+}
+
+h5 {
+  width: 50%;
+}
+
+.detail {
+  margin-left: 23%;
+  width: 200px;
+}
+.confirmorder {
+  height: 40px;
+  margin-left: -30px;
+  margin-top: -00px;
+  margin-right: 50px;
+}
+
+.chapabutton {
+  margin-top: 450px;
+  width: 120px;
+  height: 50px;
+  background-color: green;
+  margin-left: 90%;
+  border-radius: 10px;
+}

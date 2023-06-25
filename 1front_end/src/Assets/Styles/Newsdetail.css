@@ -1,0 +1,41 @@
+.thewhole {
+  display: flex;
+  gap: 20px;
+  margin: 80px;
+  height: 450px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.forimg {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.forimg img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fordes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.de {
+  margin: 20px;
+  font-size: 25px;
+}
+.pp {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.fordes .pp {
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 1.5;
+}

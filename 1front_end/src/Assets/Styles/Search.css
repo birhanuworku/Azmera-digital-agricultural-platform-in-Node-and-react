@@ -1,0 +1,24 @@
+#navbarScroll {
+  margin-left: 10%;
+}
+.d-flex {
+  margin-right: 20%;
+}
+.homesearch {
+  width: 50% !important;
+}
+#navbarScrollingDropdown {
+  font-weight: bold !important;
+}
+.homesearch {
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.searchandcatagory {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
+}
+.cart:hover {
+  background-color: green;
+}

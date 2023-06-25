@@ -1,0 +1,19 @@
+.navbar.navebar.navebar {
+  background-color: green !important;
+  width: 100%;
+}
+
+.navbar.navebar .nav-link,
+.navbar.navebar .navbar-brand {
+  color: white;
+  width: 100%;
+}
+.navebar {
+  width: 100%;
+}
+.navbar.navebar .nav-link,
+.navbar.navebar .navbar-brand {
+  color: white;
+  margin-right: 70px;
+  width: 100%;
+}

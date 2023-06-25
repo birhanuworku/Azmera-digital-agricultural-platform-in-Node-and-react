@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --light: #d0d1d3;
+  --dark: #040d14;
+  --green: #21ce99;
+}
+
+/*body {
+  font-family: Poppins;
+  background: var(--dark);
+  line-height: 26px;
+  margin: 0;
+}*/
+
+h1 {
+  color: var(--green) !important;
+}
+
+.for {
+  margin-top: 20px !important;
+  background: var(--dark) !important;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.formRow {
+  margin: 10px 0 20px 0 !important;
+}
+
+.formInput {
+  padding: 15px 10px !important;
+  background-color: var(--dark) !important;
+  box-shadow: 0 0 0 2px var(--green) !important;
+  border: none !important;
+  color: var(--green) !important;
+  margin-top: 20px;
+}
+
+.formInput:focus {
+  background-color: var(--dark) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px var(--green) !important;
+  color: var(--light) !important;
+}
+
+.formInput::placeholder {
+  color: var(--green) !important;
+  opacity: 1 !important;
+}
+
+.formInput:focus::placeholder {
+  color: var(--light) !important;
+  opacity: 1 !important;
+}
+
+.errorMessage {
+  color: #f45532 !important;
+  font-size: 14px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#notifyToast {
+  color: #fff !important;
+  border-radius: 6px !important;
+  width: 200px !important;
+  margin-left: 75px !important;
+  background-color: var(--green) !important;
+}
+
+.submit-btn {
+  background-color: var(--dark) !important;
+  color: var(--green) !important;
+  padding: 15px 50px !important;
+  border: 2px solid var(--green) !important;
+  border-radius: 10px !important;
+  margin-bottom: 25px !important;
+}
+
+.submit-btn:hover {
+  background-color: var(--green) !important;
+  color: var(--dark) !important;
+  border: 2px solid var(--green) !important;
+}
+
+.submit-btn:disabled:hover {
+  background-color: var(--dark) !important;
+  color: var(--green) !important;
+  cursor: wait !important;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px !important;
+    margin-left: 200px !important;
+  }
+}
+.ContactForm {
+  margin-top: 20px !important;
+}
+/*for additional*/

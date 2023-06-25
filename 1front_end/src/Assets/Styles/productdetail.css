@@ -1,0 +1,48 @@
+.wholediv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  right: 0px;
+  margin-top: 20px;
+}
+.dropdown {
+  margin-right: 20px;
+}
+.includingimage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: 0px;
+  width: 60%;
+}
+.productinformation {
+  width: 45%;
+  margin-left: 50px;
+}
+.description {
+  margin-top: 50px;
+  width: 100%;
+}
+.cart {
+  background-color: green !important;
+  color: white !important;
+}
+.eachinfo {
+  margin-top: 25px;
+}
+.addcartandindec {
+  display: flex;
+}
+.warning {
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  background-color: green;
+  font-size: 1.1rem;
+  color: white;
+  font-family: cursive;
+  padding: 5px;
+  border-radius: 5px;
+}
